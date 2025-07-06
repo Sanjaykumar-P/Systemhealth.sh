@@ -1,0 +1,79 @@
+==============System Health Report========
+
+-----------Date of Report Created 2025-07-06_15-12-01
+
+------------Current date and time----------
+Sun Jul 6 03:12:01 PM IST 2025
+
+---------------Users Logged in----------
+root root
+
+-----------System Running time ---------
+up 45 minutes
+
+-----------Tasks Running & Sleeping-------
+Tasks: 236 total,   1 running, 235 sleeping,   0 stopped,   0 zombie
+
+---------Disk Usage----------
+253M	.
+
+----------Disk FileSystem------
+Filesystem                  Size  Used Avail Use% Mounted on
+devtmpfs                    4.0M     0  4.0M   0% /dev
+tmpfs                       3.8G     0  3.8G   0% /dev/shm
+tmpfs                       1.5G  9.2M  1.5G   1% /run
+efivarfs                    256K   17K  235K   7% /sys/firmware/efi/efivars
+/dev/mapper/rhel_vbox-root   17G  5.7G   11G  35% /
+/dev/sda2                   960M  357M  604M  38% /boot
+/dev/sda1                   599M  7.1M  592M   2% /boot/efi
+tmpfs                       767M   96K  767M   1% /run/user/0
+
+----------Memory Details----------
+MiB Mem :   7663.2 total,   6440.4 free,   1173.3 used,    303.1 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   6489.9 avail Mem 
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+
+----------Cache cleared-----------
+Cache Cleared At the date and time of:Sun Jul  6 03:12:02 PM IST 2025
+
+----------Top Usage Cpu-----
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 97.1 id,  0.0 wa,  2.9 hi,  0.0 si,  0.0 st
+
+-----------Disk Statistics Summary---------
+            4 disks 
+            3 partitions 
+        56642 total reads
+         1446 merged reads
+      3748443 read sectors
+        62442 milli reading
+         7491 writes
+          233 merged writes
+       132604 written sectors
+        24482 milli writing
+            0 inprogress IO
+           53 milli spent IO
+
+------------Per-Disk IO Statistics------------
+disk- ------------reads------------ ------------writes----------- -----IO------
+       total merged sectors      ms  total merged sectors      ms    cur    sec
+sda    28587   1446 1940995   30633   3634    233   68351   11740      0     26
+sr0        0      0       0       0      0      0       0       0      0      0
+dm-0   27957      0 1803008   31636   3857      0   64253   12742      0     27
+dm-1      98      0    4440     173      0      0       0       0      0      0
+
+--------------List Block Devices-----------
+NAME               MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+sda                  8:0    0   20G  0 disk 
+├─sda1               8:1    0  600M  0 part /boot/efi
+├─sda2               8:2    0    1G  0 part /boot
+└─sda3               8:3    0 18.4G  0 part 
+  ├─rhel_vbox-root 253:0    0 16.4G  0 lvm  /
+  └─rhel_vbox-swap 253:1    0    2G  0 lvm  [SWAP]
+sr0                 11:0    1 1024M  0 rom  
+
+-------------Battery and Thermal info-----
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          10.00 V  
+
+
