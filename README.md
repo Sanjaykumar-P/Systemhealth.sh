@@ -39,3 +39,4 @@ sudo dnf install lm_sensors -y
 
 
 
+
