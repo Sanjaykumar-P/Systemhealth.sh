@@ -1,6 +1,6 @@
 LIVE LINK OF THE PROJECT:
 <p align="center">
-  <img src="./screenshot.png" width="600" alt="System Health Monitor Screenshot"/>
+  <img src="https://github.com/Sanjaykumar-P/Systemhealth.sh/blob/main/Mail%20Received%20Image%20.jpg" width="600" alt="System Health Monitor Screenshot"/>
 </p>
 
 <p align="center">
