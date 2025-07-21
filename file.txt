@@ -1,65 +1,65 @@
 ==============System Health Report========
 
------------Date of Report Created 2025-07-06_15-12-01
+-----------Date of Report Created 2025-07-14_10-19-01
 
 ------------Current date and time----------
-Sun Jul 6 03:12:01 PM IST 2025
+Mon Jul 14 10:19:01 AM IST 2025
 
 ---------------Users Logged in----------
 root root
 
 -----------System Running time ---------
-up 45 minutes
+up 1 hour, 23 minutes
 
 -----------Tasks Running & Sleeping-------
-Tasks: 236 total,   1 running, 235 sleeping,   0 stopped,   0 zombie
+Tasks: 245 total,   1 running, 244 sleeping,   0 stopped,   0 zombie
 
 ---------Disk Usage----------
-253M	.
+378M	.
 
 ----------Disk FileSystem------
 Filesystem                  Size  Used Avail Use% Mounted on
 devtmpfs                    4.0M     0  4.0M   0% /dev
 tmpfs                       3.8G     0  3.8G   0% /dev/shm
-tmpfs                       1.5G  9.2M  1.5G   1% /run
-efivarfs                    256K   17K  235K   7% /sys/firmware/efi/efivars
-/dev/mapper/rhel_vbox-root   17G  5.7G   11G  35% /
+tmpfs                       1.5G  9.3M  1.5G   1% /run
+efivarfs                    256K  179K   73K  72% /sys/firmware/efi/efivars
+/dev/mapper/rhel_vbox-root   17G  5.9G   11G  36% /
 /dev/sda2                   960M  357M  604M  38% /boot
 /dev/sda1                   599M  7.1M  592M   2% /boot/efi
-tmpfs                       767M   96K  767M   1% /run/user/0
+tmpfs                       767M  104K  767M   1% /run/user/0
 
 ----------Memory Details----------
-MiB Mem :   7663.2 total,   6440.4 free,   1173.3 used,    303.1 buff/cache
-MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   6489.9 avail Mem 
+MiB Mem :   7663.2 total,   5021.5 free,   1481.8 used,   1432.8 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   6181.5 avail Mem 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
 
 ----------Cache cleared-----------
-Cache Cleared At the date and time of:Sun Jul  6 03:12:02 PM IST 2025
+Cache Cleared At the date and time of:Mon Jul 14 10:19:02 AM IST 2025
 
 ----------Top Usage Cpu-----
-%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 97.1 id,  0.0 wa,  2.9 hi,  0.0 si,  0.0 st
+%Cpu(s):  0.0 us,  1.3 sy,  0.0 ni, 97.4 id,  0.0 wa,  1.3 hi,  0.0 si,  0.0 st
 
 -----------Disk Statistics Summary---------
             4 disks 
             3 partitions 
-        56642 total reads
-         1446 merged reads
-      3748443 read sectors
-        62442 milli reading
-         7491 writes
-          233 merged writes
-       132604 written sectors
-        24482 milli writing
+        52496 total reads
+         1217 merged reads
+      4163381 read sectors
+        97237 milli reading
+        67004 writes
+         1245 merged writes
+      7047000 written sectors
+       161197 milli writing
             0 inprogress IO
-           53 milli spent IO
+          113 milli spent IO
 
 ------------Per-Disk IO Statistics------------
 disk- ------------reads------------ ------------writes----------- -----IO------
        total merged sectors      ms  total merged sectors      ms    cur    sec
-sda    28587   1446 1940995   30633   3634    233   68351   11740      0     26
+sda    26622   1217 2148750   48529  33423   1245 3525549   82493      0     53
 sr0        0      0       0       0      0      0       0       0      0      0
-dm-0   27957      0 1803008   31636   3857      0   64253   12742      0     27
-dm-1      98      0    4440     173      0      0       0       0      0      0
+dm-0   25776      0 2010191   48499  33581      0 3521451   78704      0     60
+dm-1      98      0    4440     209      0      0       0       0      0      0
 
 --------------List Block Devices-----------
 NAME               MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
